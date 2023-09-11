@@ -21,7 +21,7 @@ terraform {
 provider "azurerm" {
   features {}
   skip_provider_registration = true
-  use_cli = "false"
+#  use_cli = "false"
 }
 
 resource "azurerm_resource_group" "rg" {
