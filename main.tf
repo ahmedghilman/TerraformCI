@@ -21,11 +21,11 @@ terraform {
 provider "azurerm" {
   features {}
   skip_provider_registration = true
-  use_cli = "false"
+#  use_cli = "false"
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "811-ca63578d-provide-continuous-delivery-with-gith"
+  name     = "811-577f9d27-provide-continuous-delivery-with-gith"
   location = "westus"
 }
 resource "random_string" "random" {
