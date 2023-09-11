@@ -7,7 +7,7 @@ terraform {
     }
 
   }
-  #Terraform cloud code block
+  #Terraform cloud code block -
   cloud {
     organization = "Terraform_CI"
 
