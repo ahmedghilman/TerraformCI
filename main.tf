@@ -24,7 +24,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "811-4c096141-provide-continuous-delivery-with-gith"
+  name     = "811-ca63578d-provide-continuous-delivery-with-gith"
   location = "westus"
 }
 resource "random_string" "random" {
